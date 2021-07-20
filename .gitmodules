@@ -1,0 +1,9 @@
+[submodule "opengl_glad_starter/vendor/glfw"]
+	path = opengl_glad_starter/vendor/glfw
+	url = https://github.com/djperrone/glfw
+[submodule "opengl_glad_starter/vendor/imgui"]
+	path = opengl_glad_starter/vendor/imgui
+	url = https://github.com/djperrone/imgui
+[submodule "opengl_glad_starter/vendor/spdlog"]
+	path = opengl_glad_starter/vendor/spdlog
+	url = https://github.com/gabime/spdlog
