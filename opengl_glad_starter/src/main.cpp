@@ -2,7 +2,7 @@
 
 int main()
 {    
-    Application* app = new OpenGLApplication();
+    OpenGLApplication* app = new OpenGLApplication();
     app->Run();
     delete app;
     return 0;

@@ -1,22 +1,19 @@
 #pragma once
-#include "Application.h"
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
 
-class OpenGLApplication : public Application
+class OpenGLApplication
 {
 public:
 	OpenGLApplication();
-	virtual void Run() override;	
-	virtual void HandleInput() override;
-	virtual void Render() override;	
+	void Run();	
+	void HandleInput();
+	void Render();	
 
 	void InitGLFW();
 	void ProcessInput();
-	
-
 
 private:
 	GLFWwindow* m_Window;
